@@ -1,0 +1,18 @@
+name: Latest Test Print
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  print-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Hi
+        run: echo "Hi"
+
+      - name: Print test 2
+        run: echo "H1 2"
