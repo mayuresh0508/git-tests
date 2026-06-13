@@ -1,4 +1,4 @@
-name: Test Print
+name: Latest Test Print
 
 on:
   push:
