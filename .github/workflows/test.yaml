@@ -11,8 +11,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Print test 1
-        run: echo "test 1"
+      - name: Hi
+        run: echo "Hi"
 
       - name: Print test 2
         run: echo "test 2"
