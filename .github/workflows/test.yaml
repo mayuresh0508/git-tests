@@ -15,4 +15,4 @@ jobs:
         run: echo "Hi"
 
       - name: Print test 2
-        run: echo "test 2"
+        run: echo "H1 2"
